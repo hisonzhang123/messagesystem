@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+	targetNamespace="http://www.messagesystem.com/common/socket" xmlns="http://www.messagesystem.com/common/socket"
+	elementFormDefault="qualified">
+
+	<!-- 客户端配置元素 -->
+	<xsd:element name="client-factory">
+		<xsd:complexType>
+			<xsd:attribute name="id" type="xsd:ID" use="required" />
+		</xsd:complexType>
+	</xsd:element>
+
+</xsd:schema>
